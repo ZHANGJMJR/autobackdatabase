@@ -139,8 +139,8 @@ def export_data(ssh_client, logger,host,username,remote_folder,local_folder):
         oracle_user='xyjt2022/XYJT2022'
     create_expdp_parfile(host, username, remote_folder,ssh_client)
 
-    # export_command = f"su - oracle -c 'source ~/.bash_profile && cd {remote_folder} && rm expdata*.dmp && expdp {oracle_user} parfile={new_parfile_path}'"
-    # execute_ssh_command(ssh_client, export_command, logger)
+    export_command = f"su - oracle -c 'source ~/.bash_profile && cd {remote_folder} && rm expdata*.dmp && expdp {oracle_user} parfile={new_parfile_path}'"
+    execute_ssh_command(ssh_client, export_command, logger)
 
     time.sleep(60)
     # 下载文件
