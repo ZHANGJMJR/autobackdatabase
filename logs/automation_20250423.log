@@ -1,0 +1,60 @@
+2025-04-23 08:31:55,349 - INFO - Scheduled execution date: 2025-04-22 17:01
+2025-04-23 08:31:55,354 - INFO - Waiting until 2025-04-22 17:01:00 to execute the job.
+2025-04-23 08:31:55,354 - INFO - Server config loaded: prod
+2025-04-23 08:31:55,354 - INFO - Connecting to SSH server 192.168.100.6:22 as root
+2025-04-23 08:31:55,618 - INFO - Connected (version 2.0, client OpenSSH_5.3)
+2025-04-23 08:31:55,937 - INFO - Authentication (publickey) failed.
+2025-04-23 08:31:55,949 - INFO - Authentication (password) successful!
+2025-04-23 08:31:55,950 - INFO - SSH connection established.
+2025-04-23 08:32:51,249 - INFO - Creating new expdp parameter file: expdp_params_20250423.par
+2025-04-23 08:32:51,451 - INFO - Downloaded file: 
+2025-04-23 08:32:51,451 - INFO - Downloaded file: 
+2025-04-23 08:32:51,451 - INFO - New expdp parameter file created: expdp_params_20250423.par
+2025-04-23 08:34:17,389 - INFO - Starting file transfer from  /db/base/xyback/  to F:\DockerData\oracle11g\expdata directory.
+2025-04-23 08:34:28,934 - INFO - [chan 1] Opened sftp connection (server version 3)
+2025-04-23 08:34:31,689 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata20250422.log
+2025-04-23 08:34:50,424 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata20250422_1.dmp
+2025-04-23 08:34:52,679 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata20250422_2.dmp
+2025-04-23 08:34:53,772 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata20250422_3.dmp
+2025-04-23 08:34:54,836 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata20250422_4.dmp
+2025-04-23 08:34:55,842 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata20250422_5.dmp
+2025-04-23 08:34:57,097 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\export.log
+2025-04-23 08:34:58,359 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\impdata20250422.log
+2025-04-23 09:00:38,171 - INFO - SCP £º
+2025-04-23 09:00:38,171 - INFO - SCP £º
+2025-04-23 09:02:21,794 - INFO - Downloaded file: expdata202504_2.dmp
+2025-04-23 09:02:24,355 - INFO - SCP £º
+2025-04-23 09:02:24,355 - INFO - SCP £º
+2025-04-23 09:02:24,565 - INFO - Downloaded file: expdata202504.log
+2025-04-23 09:11:42,841 - INFO - SCP £º
+2025-04-23 09:11:42,841 - INFO - SCP £º
+2025-04-23 09:12:09,882 - INFO - Downloaded file: expdata202504_3.dmp
+2025-04-23 09:14:36,061 - INFO - Waiting until 2025-04-22 17:01:00 to execute the job.
+2025-04-23 09:15:11,279 - INFO - Waiting until 2025-04-22 17:01:00 to execute the job.
+2025-04-23 09:15:41,319 - INFO - Connecting to SSH server 192.168.100.6:22 as root
+2025-04-23 09:15:41,586 - INFO - Connected (version 2.0, client OpenSSH_5.3)
+2025-04-23 09:15:41,902 - INFO - Authentication (publickey) failed.
+2025-04-23 09:15:41,917 - INFO - Authentication (password) successful!
+2025-04-23 09:15:41,918 - INFO - SSH connection established.
+2025-04-23 09:15:51,354 - INFO - Creating new expdp parameter file: expdp_params_20250423.par
+2025-04-23 09:15:51,560 - INFO - Downloaded file: 
+2025-04-23 09:15:51,560 - INFO - Downloaded file: 
+2025-04-23 09:15:51,560 - INFO - New expdp parameter file created: expdp_params_20250423.par
+2025-04-23 09:17:16,569 - INFO - Starting file transfer from  /db/base/xyback/  to F:\DockerData\oracle11g\expdata directory.
+2025-04-23 09:17:17,281 - INFO - [chan 1] Opened sftp connection (server version 3)
+2025-04-23 09:17:52,272 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata202504.log
+2025-04-23 09:17:53,953 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata202504_2.dmp
+2025-04-23 09:17:54,584 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\expdata202504_3.dmp
+2025-04-23 09:17:54,645 - INFO - Deleted local file: F:\DockerData\oracle11g\expdata\exp_xyjt2025_0124.dmp
+2025-04-23 09:49:11,556 - INFO - SCP £º
+2025-04-23 09:49:11,736 - INFO - SCP £º
+2025-04-23 09:49:12,103 - INFO - Downloaded file: expdata202504_2.dmp
+2025-04-23 09:49:17,981 - INFO - SCP £º
+2025-04-23 09:49:17,981 - INFO - SCP £º
+2025-04-23 09:49:18,888 - INFO - Downloaded file: expdata202504.log
+2025-04-23 09:58:33,399 - INFO - SCP £º
+2025-04-23 09:58:33,399 - INFO - SCP £º
+2025-04-23 10:04:19,295 - INFO - Downloaded file: expdata202504_3.dmp
+2025-04-23 10:04:27,272 - INFO - SCP £º
+2025-04-23 10:04:27,272 - INFO - SCP £º
+2025-04-23 10:04:34,846 - INFO - Downloaded file: expdata202504_4.dmp

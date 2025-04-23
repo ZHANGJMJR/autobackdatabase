@@ -1,0 +1,10 @@
+schemas=XYJT2022
+directory=xyback
+dumpfile=expdata20250423_1.dmp,expdata20250423_2.dmp,expdata20250423_3.dmp,expdata20250423_4.dmp,expdata20250423_5.dmp
+exclude=table:"LIKE 'VT%'"
+exclude=table:"LIKE '%LOG'"
+exclude=table:"LIKE 'T_WFR_%'"
+exclude=table:"IN ('T_ATS_OTTOTAKEWORKDETAIL','T_WFR_ACTINST','T_SSC_ASSIGNFLOWTRACKHIS','T_WFR_ASSIGNDETAIL','T_SSC_ASSIGNFLOWINSTENTRYHIS','T_HR_PERSONPHOTO','T_SSC_ASSIGNFLOWTRACKHIS','T_SSC_ASSIGNPERSONTRACK')"
+parallel=5
+logfile=expdata20250423.log
+cluster=n
